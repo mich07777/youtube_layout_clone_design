@@ -1,0 +1,79 @@
+.main-page{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid  red;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+.header-container {
+    height: 10%;
+    width: 100%;
+    border: 2px solid red;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.body-container {
+    border: 2px solid red;
+    box-sizing: border-box;
+    height: 90%;
+    box-sizing: border-box;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.sidebar-content {
+    border: 2px solid red;
+    height: 100%;
+    width: 12%;
+}
+
+.main-content {
+    border: 2px solid red;
+    height: 100%;
+    width: 100%; 
+}
+
+.content {
+    border: 1px solid red;
+    height: 50%;
+    margin: 10px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.down-content {
+    border: 1px solid red;
+    height: 45%;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.hedaer-content{
+    border: 2px solid red;
+    width: 34%;
+    height: 96%;
+}
+
+.videos {
+    border: 2px solid red;
+    height: 50%;  
+    width: 50%;
+}
+
+.shorts {
+    border: 2px solid red;
+    height: 100%;  
+    width: 50%
+}
